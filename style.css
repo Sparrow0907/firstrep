@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.logo-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+   
+    overflow: hidden;
+}
+
+.logo-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.superbia-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.content {
+    padding: 20px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; 
+}
+
+.grid-item p {
+    margin: 0;
+}
+
+.game-info {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    text-align: center; 
+    margin-top: auto;
+  }
+  .social-icons img {
+    width: 52px;
+    height: 52px;
+    vertical-align: middle;
+  }
+
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-left img {
+    width: 50px;
+    height: auto;  
+    margin-right: 10px;
+  }
+
+  #back-to-top {
+    bottom: 20px; /* Отступ снизу */
+    right: 20px; /* Отступ справа */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
